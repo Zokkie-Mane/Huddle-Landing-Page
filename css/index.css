@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("../images/bg-desktop.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-weight: 400;
+}
+.build {
+  font-size: 40px;
+}
+
+.logo__container {
+  padding: 10px 0 30px 50px;
+  margin: 8px 0 10px 30px;
+  height: 50px;
+}
+
+.logo {
+  width: 10rem;
+}
+.boss {
+  display: flex;
+  flex-direction: row;
+}
+.mockup {
+  margin-right: 15px;
+}
+
+.illus {
+  width: 40rem;
+}
+
+.body__container {
+  margin-left: 30px;
+  padding: 30px 10px 20px 0;
+  width: 1440px;
+  height: calc(100vh - 100px);
+  color: #e7ecef;
+}
+.text__container {
+  padding: 15px;
+}
+
+button {
+  text-align: center;
+  padding: 11px;
+  border-radius: 30px;
+  border: none;
+  width: 10rem;
+  color: hsl(228, 45%, 44%);
+  cursor: pointer;
+}
+i.fab {
+  margin: 0 10px 0 10px;
+  font-size: 22px;
+}
+.footer {
+  margin: 0 30px 0 0;
+  float: right;
+}
+footer {
+  margin-top: 20px;
+  height: 40px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 1200px) {
+  .logo__container {
+    margin: 50px 0 30px 50px;
+    height: 50px;
+  }
+  .body__container {
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 0;
+    width: 1100px;
+    color: #e7ecef;
+  }
+  .illus {
+    width: 35rem;
+  }
+  .mockup {
+    column-width: 300;
+    margin: 0;
+  }
+  .text__container {
+    margin: 20px;
+    column-width: 800;
+    padding: 10;
+  }
+  .build {
+    font-size: 30px;
+  }
+  .mini {
+    font-size: 13px;
+  }
+  .icons {
+    padding: 18px;
+    padding-bottom: 30px;
+  }
+  .footer {
+    margin: 0 30px 5px 0;
+    float: right;
+  }
+  footer {
+    margin-top: 40px;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: 400;
+  }
+
+  .logo__container {
+    padding: 10px 0 20px 20px;
+  }
+  .boss {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .body__container {
+    padding: 20px 20px 20px 20px;
+    width: 768px;
+    height: calc(100vh - 100px);
+    color: #e7ecef;
+  }
+  .illus {
+    width: 38rem;
+  }
+  .mockup {
+    margin: 0;
+  }
+  .text__container {
+    text-align: center;
+    padding-top: 20px;
+    padding: 10px;
+  }
+  .build {
+    font-size: 50px;
+    padding-bottom: 3px;
+  }
+  .mini {
+    font-size: 20px;
+    padding: 0 40px 0 40px;
+  }
+  button {
+    text-align: center;
+    padding: 13px;
+    border-radius: 30px;
+    border: none;
+    width: 15rem;
+    color: hsl(228, 45%, 44%);
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .icons {
+    padding: 50px;
+    text-align: center;
+  }
+  .footer {
+    margin: 0 30px 5px 0;
+    float: right;
+  }
+  footer {
+    margin-top: 40px;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: 400;
+  }
+
+  .logo__container {
+    margin: 30px 0 20px 20px;
+    height: 50px;
+  }
+  .logo {
+    width: 12rem;
+  }
+  .boss {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .body__container {
+    width: 480px;
+    height: calc(100vh);
+    color: #e7ecef;
+    margin: 0;
+  }
+  .illus {
+    width: 26rem;
+  }
+  .mockup {
+    padding: 10px;
+  }
+  .text__container {
+    text-align: center;
+    padding-top: 20px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin: 0;
+    margin-top: 55px;
+    width: 100%;
+  }
+  .build {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .mini {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  button {
+    text-align: center;
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+    width: 15rem;
+    color: hsl(228, 45%, 44%);
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .icons {
+    padding: 50px;
+    text-align: center;
+  }
+  .footer {
+    margin: 0 30px 5px 0;
+    float: right;
+    padding-right: 30%;
+  }
+  footer {
+    margin-top: 40px;
+    height: 10px;
+  }
+}
